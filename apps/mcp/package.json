@@ -1,0 +1,11 @@
+{
+  "name": "@ic/mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "start": "tsx src/stdio.ts" },
+  "dependencies": {
+    "@ic/core": "*",
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.25.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "inspection-copilot": {
+      "command": "npx",
+      "args": ["tsx", "/ABSOLUTE/PATH/TO/inspection-copilot/apps/mcp/src/stdio.ts"],
+      "env": { "IC_API_URL": "http://localhost:3000" }
+    }
+  }
+}

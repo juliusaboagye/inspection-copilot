@@ -1,0 +1,440 @@
+[
+  {
+    "inspectionId": "insp-01-PG-101",
+    "trueValue": 7.8,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-01-PG-102",
+    "trueValue": 9.6,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-01-PG-201",
+    "trueValue": 4.81,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "wrong_value"
+  },
+  {
+    "inspectionId": "insp-01-PG-305",
+    "trueValue": 101.15,
+    "unit": "psi",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-01-TG-110",
+    "trueValue": 64.35,
+    "unit": "degC",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-01-TG-220",
+    "trueValue": 83.29,
+    "unit": "degC",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "wrong_value"
+  },
+  {
+    "inspectionId": "insp-01-PG-410",
+    "trueValue": 11.79,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "missing"
+  },
+  {
+    "inspectionId": "insp-01-TG-415",
+    "trueValue": 197.04,
+    "unit": "degF",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-02-PG-101",
+    "trueValue": 7.58,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "missing"
+  },
+  {
+    "inspectionId": "insp-02-PG-102",
+    "trueValue": 8.2,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [
+      "cracked_glass"
+    ],
+    "robotFault": "wrong_value"
+  },
+  {
+    "inspectionId": "insp-02-PG-201",
+    "trueValue": 4.42,
+    "unit": "bar",
+    "readable": false,
+    "imageCondition": "unreadable",
+    "defects": [],
+    "robotFault": "wrong_value"
+  },
+  {
+    "inspectionId": "insp-02-PG-305",
+    "trueValue": 100.11,
+    "unit": "psi",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-02-TG-110",
+    "trueValue": 53.64,
+    "unit": "degC",
+    "readable": true,
+    "imageCondition": "occluded",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-02-TG-220",
+    "trueValue": 80.81,
+    "unit": "degC",
+    "readable": true,
+    "imageCondition": "occluded",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-02-PG-410",
+    "trueValue": 9.27,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-02-TG-415",
+    "trueValue": 203.41,
+    "unit": "degF",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-03-PG-101",
+    "trueValue": 8.91,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "noisy",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-03-PG-102",
+    "trueValue": 6.8,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-03-PG-201",
+    "trueValue": 4.79,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "occluded",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-03-PG-305",
+    "trueValue": 100.0,
+    "unit": "psi",
+    "readable": true,
+    "imageCondition": "noisy",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-03-TG-110",
+    "trueValue": 58.96,
+    "unit": "degC",
+    "readable": true,
+    "imageCondition": "noisy",
+    "defects": [],
+    "robotFault": "wrong_value"
+  },
+  {
+    "inspectionId": "insp-03-TG-220",
+    "trueValue": 73.54,
+    "unit": "degC",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-03-PG-410",
+    "trueValue": 11.47,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "noisy",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-03-TG-415",
+    "trueValue": 183.69,
+    "unit": "degF",
+    "readable": true,
+    "imageCondition": "noisy",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-04-PG-101",
+    "trueValue": 4.4,
+    "unit": "bar",
+    "readable": false,
+    "imageCondition": "unreadable",
+    "defects": [
+      "cracked_glass"
+    ],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-04-PG-102",
+    "trueValue": 4.4,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "noisy",
+    "defects": [],
+    "robotFault": "wrong_value"
+  },
+  {
+    "inspectionId": "insp-04-PG-201",
+    "trueValue": 4.35,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-04-PG-305",
+    "trueValue": 96.29,
+    "unit": "psi",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-04-TG-110",
+    "trueValue": 84.0,
+    "unit": "degC",
+    "readable": false,
+    "imageCondition": "unreadable",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-04-TG-220",
+    "trueValue": 74.56,
+    "unit": "degC",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-04-PG-410",
+    "trueValue": 13.27,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "occluded",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-04-TG-415",
+    "trueValue": 187.04,
+    "unit": "degF",
+    "readable": true,
+    "imageCondition": "noisy",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-05-PG-101",
+    "trueValue": 4.4,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [
+      "cracked_glass"
+    ],
+    "robotFault": "wrong_value"
+  },
+  {
+    "inspectionId": "insp-05-PG-102",
+    "trueValue": 4.0,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "decimal_shift"
+  },
+  {
+    "inspectionId": "insp-05-PG-201",
+    "trueValue": 2.56,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "wrong_unit"
+  },
+  {
+    "inspectionId": "insp-05-PG-305",
+    "trueValue": 104.19,
+    "unit": "psi",
+    "readable": true,
+    "imageCondition": "noisy",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-05-TG-110",
+    "trueValue": 52.9,
+    "unit": "degC",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-05-TG-220",
+    "trueValue": 109.0,
+    "unit": "degC",
+    "readable": false,
+    "imageCondition": "unreadable",
+    "defects": [],
+    "robotFault": "missing"
+  },
+  {
+    "inspectionId": "insp-05-PG-410",
+    "trueValue": 12.89,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "wrong_unit"
+  },
+  {
+    "inspectionId": "insp-05-TG-415",
+    "trueValue": 224.28,
+    "unit": "degF",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "missing"
+  },
+  {
+    "inspectionId": "insp-06-PG-101",
+    "trueValue": 8.37,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-06-PG-102",
+    "trueValue": 2.6,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-06-PG-201",
+    "trueValue": 4.59,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  },
+  {
+    "inspectionId": "insp-06-PG-305",
+    "trueValue": 99.23,
+    "unit": "psi",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "wrong_value"
+  },
+  {
+    "inspectionId": "insp-06-TG-110",
+    "trueValue": 51.47,
+    "unit": "degC",
+    "readable": true,
+    "imageCondition": "noisy",
+    "defects": [],
+    "robotFault": "wrong_value"
+  },
+  {
+    "inspectionId": "insp-06-TG-220",
+    "trueValue": 91.98,
+    "unit": "degC",
+    "readable": true,
+    "imageCondition": "noisy",
+    "defects": [],
+    "robotFault": "wrong_value"
+  },
+  {
+    "inspectionId": "insp-06-PG-410",
+    "trueValue": 12.23,
+    "unit": "bar",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "missing"
+  },
+  {
+    "inspectionId": "insp-06-TG-415",
+    "trueValue": 211.83,
+    "unit": "degF",
+    "readable": true,
+    "imageCondition": "clean",
+    "defects": [],
+    "robotFault": "ok"
+  }
+]

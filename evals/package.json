@@ -1,0 +1,7 @@
+{
+  "name": "@ic/evals",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "eval": "tsx src/run.ts" },
+  "dependencies": { "@ic/core": "*", "@ic/vision": "*" }
+}

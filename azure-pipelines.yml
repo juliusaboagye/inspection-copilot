@@ -1,0 +1,66 @@
+trigger: [main]
+pr: [main]
+
+pool: { vmImage: ubuntu-latest }
+
+variables:
+  imageRepo: inspection-copilot
+
+stages:
+- stage: Test
+  jobs:
+  - job: test
+    services:
+      postgres: postgres            # real Postgres for integration tests
+    variables:
+      TEST_DATABASE_URL: postgres://ic:ic@localhost:5432/ic_test
+    steps:
+    - task: NodeTool@0
+      inputs: { versionSpec: '22.x' }
+    - script: npm ci
+    - script: npm run typecheck
+    - script: npx vitest run --coverage.enabled=false
+      displayName: Unit + integration tests
+    - script: npm run eval -- --gate
+      displayName: Model eval gate (offline fake model; point at a real model on a schedule)
+
+- stage: Build
+  dependsOn: Test
+  condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+  jobs:
+  - job: image
+    steps:
+    - task: Docker@2
+      inputs:
+        command: buildAndPush
+        containerRegistry: acr-service-connection
+        repository: $(imageRepo)
+        tags: $(Build.BuildId)
+
+- stage: Deploy
+  dependsOn: Build
+  jobs:
+  - deployment: azure
+    environment: production        # approvals and checks are configured on the environment
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: self
+          - task: AzureCLI@2
+            inputs:
+              azureSubscription: azure-service-connection   # workload identity federation, no stored secret
+              scriptType: bash
+              scriptLocation: inlineScript
+              inlineScript: |
+                az deployment group create -g rg-inspection -f infra/main.bicep \
+                  -p apiImage=$(acrLoginServer)/$(imageRepo):$(Build.BuildId) \
+                     workerImage=$(acrLoginServer)/$(imageRepo):$(Build.BuildId) \
+                     pgAdminPassword=$(pgAdminPassword)
+
+resources:
+  containers:
+  - container: postgres
+    image: postgres:16
+    env: { POSTGRES_USER: ic, POSTGRES_PASSWORD: ic, POSTGRES_DB: ic_test }
+    ports: ['5432:5432']

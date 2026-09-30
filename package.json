@@ -1,0 +1,29 @@
+{
+  "name": "inspection-copilot",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "evals"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "for p in packages/core packages/vision apps/api apps/mcp apps/web evals; do tsc -p $p || exit 1; done",
+    "dataset": "python3 tools/generate_dataset.py --out data/synthetic",
+    "db:migrate": "npm run migrate -w @ic/api",
+    "dev:api": "npm run dev -w @ic/api",
+    "dev:worker": "npm run worker -w @ic/api",
+    "dev:web": "npm run dev -w @ic/web",
+    "mcp": "npm start -w @ic/mcp",
+    "seed": "npm run seed -w @ic/api",
+    "eval": "npm run eval -w @ic/evals --"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "tsx": "^4.20.0",
+    "vitest": "^3.2.0",
+    "@types/node": "^22.0.0"
+  }
+}

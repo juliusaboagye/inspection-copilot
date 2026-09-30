@@ -1,0 +1,722 @@
+[
+  {
+    "inspectionId": "insp-01-PG-101",
+    "assetId": "PG-101",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-01T07:47:00+00:00",
+    "image": "images/insp-01-PG-101.jpg",
+    "robotReading": {
+      "value": 7.88,
+      "unit": "bar",
+      "confidence": 0.81
+    },
+    "audio": {
+      "rmsDb": 62.6
+    }
+  },
+  {
+    "inspectionId": "insp-01-PG-102",
+    "assetId": "PG-102",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-01T06:56:00+00:00",
+    "image": "images/insp-01-PG-102.jpg",
+    "robotReading": {
+      "value": 9.69,
+      "unit": "bar",
+      "confidence": 0.81
+    },
+    "audio": {
+      "rmsDb": 62.4
+    }
+  },
+  {
+    "inspectionId": "insp-01-PG-201",
+    "assetId": "PG-201",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-01T06:16:00+00:00",
+    "image": "images/insp-01-PG-201.jpg",
+    "robotReading": {
+      "value": 3.72,
+      "unit": "bar",
+      "confidence": 0.72
+    },
+    "audio": {
+      "rmsDb": 66.5
+    }
+  },
+  {
+    "inspectionId": "insp-01-PG-305",
+    "assetId": "PG-305",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-01T07:02:00+00:00",
+    "image": "images/insp-01-PG-305.jpg",
+    "robotReading": {
+      "value": 100.27,
+      "unit": "psi",
+      "confidence": 0.92
+    },
+    "audio": {
+      "rmsDb": 62.7
+    }
+  },
+  {
+    "inspectionId": "insp-01-TG-110",
+    "assetId": "TG-110",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-01T08:05:00+00:00",
+    "image": "images/insp-01-TG-110.jpg",
+    "robotReading": {
+      "value": 62.59,
+      "unit": "degC",
+      "confidence": 0.83
+    },
+    "audio": {
+      "rmsDb": 65.4
+    }
+  },
+  {
+    "inspectionId": "insp-01-TG-220",
+    "assetId": "TG-220",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-01T07:56:00+00:00",
+    "image": "images/insp-01-TG-220.jpg",
+    "robotReading": {
+      "value": 89.16,
+      "unit": "degC",
+      "confidence": 0.73
+    },
+    "audio": {
+      "rmsDb": 62.6
+    }
+  },
+  {
+    "inspectionId": "insp-01-PG-410",
+    "assetId": "PG-410",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-01T07:12:00+00:00",
+    "image": "images/insp-01-PG-410.jpg",
+    "robotReading": {
+      "value": null,
+      "unit": null,
+      "confidence": 0.0
+    },
+    "audio": {
+      "rmsDb": 67.7
+    }
+  },
+  {
+    "inspectionId": "insp-01-TG-415",
+    "assetId": "TG-415",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-01T07:40:00+00:00",
+    "image": "images/insp-01-TG-415.jpg",
+    "robotReading": {
+      "value": 197.22,
+      "unit": "degF",
+      "confidence": 0.84
+    },
+    "audio": {
+      "rmsDb": 69.3
+    }
+  },
+  {
+    "inspectionId": "insp-02-PG-101",
+    "assetId": "PG-101",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-02T07:11:00+00:00",
+    "image": "images/insp-02-PG-101.jpg",
+    "robotReading": {
+      "value": null,
+      "unit": null,
+      "confidence": 0.0
+    },
+    "audio": {
+      "rmsDb": 67.7
+    }
+  },
+  {
+    "inspectionId": "insp-02-PG-102",
+    "assetId": "PG-102",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-02T08:01:00+00:00",
+    "image": "images/insp-02-PG-102.jpg",
+    "robotReading": {
+      "value": 15.29,
+      "unit": "bar",
+      "confidence": 0.74
+    },
+    "audio": {
+      "rmsDb": 63.0
+    }
+  },
+  {
+    "inspectionId": "insp-02-PG-201",
+    "assetId": "PG-201",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-02T08:15:00+00:00",
+    "image": "images/insp-02-PG-201.jpg",
+    "robotReading": {
+      "value": 5.16,
+      "unit": "bar",
+      "confidence": 0.58
+    },
+    "audio": {
+      "rmsDb": 64.9
+    }
+  },
+  {
+    "inspectionId": "insp-02-PG-305",
+    "assetId": "PG-305",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-02T06:57:00+00:00",
+    "image": "images/insp-02-PG-305.jpg",
+    "robotReading": {
+      "value": 96.81,
+      "unit": "psi",
+      "confidence": 0.83
+    },
+    "audio": {
+      "rmsDb": 66.3
+    }
+  },
+  {
+    "inspectionId": "insp-02-TG-110",
+    "assetId": "TG-110",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-02T07:11:00+00:00",
+    "image": "images/insp-02-TG-110.jpg",
+    "robotReading": {
+      "value": 52.58,
+      "unit": "degC",
+      "confidence": 0.8
+    },
+    "audio": {
+      "rmsDb": 65.8
+    }
+  },
+  {
+    "inspectionId": "insp-02-TG-220",
+    "assetId": "TG-220",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-02T08:36:00+00:00",
+    "image": "images/insp-02-TG-220.jpg",
+    "robotReading": {
+      "value": 82.73,
+      "unit": "degC",
+      "confidence": 0.91
+    },
+    "audio": {
+      "rmsDb": 68.7
+    }
+  },
+  {
+    "inspectionId": "insp-02-PG-410",
+    "assetId": "PG-410",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-02T08:42:00+00:00",
+    "image": "images/insp-02-PG-410.jpg",
+    "robotReading": {
+      "value": 9.32,
+      "unit": "bar",
+      "confidence": 0.83
+    },
+    "audio": {
+      "rmsDb": 64.7
+    }
+  },
+  {
+    "inspectionId": "insp-02-TG-415",
+    "assetId": "TG-415",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-02T07:59:00+00:00",
+    "image": "images/insp-02-TG-415.jpg",
+    "robotReading": {
+      "value": 195.81,
+      "unit": "degF",
+      "confidence": 0.9
+    },
+    "audio": {
+      "rmsDb": 68.5
+    }
+  },
+  {
+    "inspectionId": "insp-03-PG-101",
+    "assetId": "PG-101",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-03T06:49:00+00:00",
+    "image": "images/insp-03-PG-101.jpg",
+    "robotReading": {
+      "value": 9.15,
+      "unit": "bar",
+      "confidence": 0.97
+    },
+    "audio": {
+      "rmsDb": 68.6
+    }
+  },
+  {
+    "inspectionId": "insp-03-PG-102",
+    "assetId": "PG-102",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-03T07:57:00+00:00",
+    "image": "images/insp-03-PG-102.jpg",
+    "robotReading": {
+      "value": 6.92,
+      "unit": "bar",
+      "confidence": 0.93
+    },
+    "audio": {
+      "rmsDb": 67.3
+    }
+  },
+  {
+    "inspectionId": "insp-03-PG-201",
+    "assetId": "PG-201",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-03T08:38:00+00:00",
+    "image": "images/insp-03-PG-201.jpg",
+    "robotReading": {
+      "value": 4.68,
+      "unit": "bar",
+      "confidence": 0.82
+    },
+    "audio": {
+      "rmsDb": 67.8
+    }
+  },
+  {
+    "inspectionId": "insp-03-PG-305",
+    "assetId": "PG-305",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-03T06:07:00+00:00",
+    "image": "images/insp-03-PG-305.jpg",
+    "robotReading": {
+      "value": 99.51,
+      "unit": "psi",
+      "confidence": 0.88
+    },
+    "audio": {
+      "rmsDb": 68.1
+    }
+  },
+  {
+    "inspectionId": "insp-03-TG-110",
+    "assetId": "TG-110",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-03T07:06:00+00:00",
+    "image": "images/insp-03-TG-110.jpg",
+    "robotReading": {
+      "value": 105.18,
+      "unit": "degC",
+      "confidence": 0.88
+    },
+    "audio": {
+      "rmsDb": 69.4
+    }
+  },
+  {
+    "inspectionId": "insp-03-TG-220",
+    "assetId": "TG-220",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-03T06:31:00+00:00",
+    "image": "images/insp-03-TG-220.jpg",
+    "robotReading": {
+      "value": 73.57,
+      "unit": "degC",
+      "confidence": 0.91
+    },
+    "audio": {
+      "rmsDb": 69.2
+    }
+  },
+  {
+    "inspectionId": "insp-03-PG-410",
+    "assetId": "PG-410",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-03T06:57:00+00:00",
+    "image": "images/insp-03-PG-410.jpg",
+    "robotReading": {
+      "value": 11.58,
+      "unit": "bar",
+      "confidence": 0.91
+    },
+    "audio": {
+      "rmsDb": 63.3
+    }
+  },
+  {
+    "inspectionId": "insp-03-TG-415",
+    "assetId": "TG-415",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-03T07:15:00+00:00",
+    "image": "images/insp-03-TG-415.jpg",
+    "robotReading": {
+      "value": 182.83,
+      "unit": "degF",
+      "confidence": 0.89
+    },
+    "audio": {
+      "rmsDb": 66.1
+    }
+  },
+  {
+    "inspectionId": "insp-04-PG-101",
+    "assetId": "PG-101",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-04T06:04:00+00:00",
+    "image": "images/insp-04-PG-101.jpg",
+    "robotReading": {
+      "value": 4.17,
+      "unit": "bar",
+      "confidence": 0.85
+    },
+    "audio": {
+      "rmsDb": 70.0
+    }
+  },
+  {
+    "inspectionId": "insp-04-PG-102",
+    "assetId": "PG-102",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-04T07:40:00+00:00",
+    "image": "images/insp-04-PG-102.jpg",
+    "robotReading": {
+      "value": 10.5,
+      "unit": "bar",
+      "confidence": 0.72
+    },
+    "audio": {
+      "rmsDb": 69.8
+    }
+  },
+  {
+    "inspectionId": "insp-04-PG-201",
+    "assetId": "PG-201",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-04T06:33:00+00:00",
+    "image": "images/insp-04-PG-201.jpg",
+    "robotReading": {
+      "value": 4.42,
+      "unit": "bar",
+      "confidence": 0.81
+    },
+    "audio": {
+      "rmsDb": 62.1
+    }
+  },
+  {
+    "inspectionId": "insp-04-PG-305",
+    "assetId": "PG-305",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-04T07:15:00+00:00",
+    "image": "images/insp-04-PG-305.jpg",
+    "robotReading": {
+      "value": 93.95,
+      "unit": "psi",
+      "confidence": 0.84
+    },
+    "audio": {
+      "rmsDb": 62.4
+    }
+  },
+  {
+    "inspectionId": "insp-04-TG-110",
+    "assetId": "TG-110",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-04T08:01:00+00:00",
+    "image": "images/insp-04-TG-110.jpg",
+    "robotReading": {
+      "value": 84.87,
+      "unit": "degC",
+      "confidence": 0.86
+    },
+    "audio": {
+      "rmsDb": 64.2
+    }
+  },
+  {
+    "inspectionId": "insp-04-TG-220",
+    "assetId": "TG-220",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-04T06:59:00+00:00",
+    "image": "images/insp-04-TG-220.jpg",
+    "robotReading": {
+      "value": 73.62,
+      "unit": "degC",
+      "confidence": 0.85
+    },
+    "audio": {
+      "rmsDb": 62.7
+    }
+  },
+  {
+    "inspectionId": "insp-04-PG-410",
+    "assetId": "PG-410",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-04T08:11:00+00:00",
+    "image": "images/insp-04-PG-410.jpg",
+    "robotReading": {
+      "value": 13.14,
+      "unit": "bar",
+      "confidence": 0.94
+    },
+    "audio": {
+      "rmsDb": 67.0
+    }
+  },
+  {
+    "inspectionId": "insp-04-TG-415",
+    "assetId": "TG-415",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-04T06:26:00+00:00",
+    "image": "images/insp-04-TG-415.jpg",
+    "robotReading": {
+      "value": 181.58,
+      "unit": "degF",
+      "confidence": 0.86
+    },
+    "audio": {
+      "rmsDb": 65.0
+    }
+  },
+  {
+    "inspectionId": "insp-05-PG-101",
+    "assetId": "PG-101",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-05T07:14:00+00:00",
+    "image": "images/insp-05-PG-101.jpg",
+    "robotReading": {
+      "value": 11.07,
+      "unit": "bar",
+      "confidence": 0.77
+    },
+    "audio": {
+      "rmsDb": 67.7
+    }
+  },
+  {
+    "inspectionId": "insp-05-PG-102",
+    "assetId": "PG-102",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-05T07:57:00+00:00",
+    "image": "images/insp-05-PG-102.jpg",
+    "robotReading": {
+      "value": 40.0,
+      "unit": "bar",
+      "confidence": 0.7
+    },
+    "audio": {
+      "rmsDb": 70.6
+    }
+  },
+  {
+    "inspectionId": "insp-05-PG-201",
+    "assetId": "PG-201",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-05T07:32:00+00:00",
+    "image": "images/insp-05-PG-201.jpg",
+    "robotReading": {
+      "value": 2.56,
+      "unit": "psi",
+      "confidence": 0.68
+    },
+    "audio": {
+      "rmsDb": 63.1
+    }
+  },
+  {
+    "inspectionId": "insp-05-PG-305",
+    "assetId": "PG-305",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-05T06:36:00+00:00",
+    "image": "images/insp-05-PG-305.jpg",
+    "robotReading": {
+      "value": 102.44,
+      "unit": "psi",
+      "confidence": 0.85
+    },
+    "audio": {
+      "rmsDb": 65.3
+    }
+  },
+  {
+    "inspectionId": "insp-05-TG-110",
+    "assetId": "TG-110",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-05T07:14:00+00:00",
+    "image": "images/insp-05-TG-110.jpg",
+    "robotReading": {
+      "value": 54.6,
+      "unit": "degC",
+      "confidence": 0.95
+    },
+    "audio": {
+      "rmsDb": 64.0
+    }
+  },
+  {
+    "inspectionId": "insp-05-TG-220",
+    "assetId": "TG-220",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-05T07:13:00+00:00",
+    "image": "images/insp-05-TG-220.jpg",
+    "robotReading": {
+      "value": null,
+      "unit": null,
+      "confidence": 0.0
+    },
+    "audio": {
+      "rmsDb": 67.1
+    }
+  },
+  {
+    "inspectionId": "insp-05-PG-410",
+    "assetId": "PG-410",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-05T08:21:00+00:00",
+    "image": "images/insp-05-PG-410.jpg",
+    "robotReading": {
+      "value": 12.89,
+      "unit": "psi",
+      "confidence": 0.79
+    },
+    "audio": {
+      "rmsDb": 66.4
+    }
+  },
+  {
+    "inspectionId": "insp-05-TG-415",
+    "assetId": "TG-415",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-05T08:04:00+00:00",
+    "image": "images/insp-05-TG-415.jpg",
+    "robotReading": {
+      "value": null,
+      "unit": null,
+      "confidence": 0.0
+    },
+    "audio": {
+      "rmsDb": 62.4
+    }
+  },
+  {
+    "inspectionId": "insp-06-PG-101",
+    "assetId": "PG-101",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-06T08:03:00+00:00",
+    "image": "images/insp-06-PG-101.jpg",
+    "robotReading": {
+      "value": 8.33,
+      "unit": "bar",
+      "confidence": 0.84
+    },
+    "audio": {
+      "rmsDb": 66.5
+    }
+  },
+  {
+    "inspectionId": "insp-06-PG-102",
+    "assetId": "PG-102",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-06T07:49:00+00:00",
+    "image": "images/insp-06-PG-102.jpg",
+    "robotReading": {
+      "value": 2.66,
+      "unit": "bar",
+      "confidence": 0.93
+    },
+    "audio": {
+      "rmsDb": 71.1
+    }
+  },
+  {
+    "inspectionId": "insp-06-PG-201",
+    "assetId": "PG-201",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-06T07:38:00+00:00",
+    "image": "images/insp-06-PG-201.jpg",
+    "robotReading": {
+      "value": 4.63,
+      "unit": "bar",
+      "confidence": 0.95
+    },
+    "audio": {
+      "rmsDb": 65.3
+    }
+  },
+  {
+    "inspectionId": "insp-06-PG-305",
+    "assetId": "PG-305",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-06T07:09:00+00:00",
+    "image": "images/insp-06-PG-305.jpg",
+    "robotReading": {
+      "value": 138.06,
+      "unit": "psi",
+      "confidence": 0.59
+    },
+    "audio": {
+      "rmsDb": 69.2
+    }
+  },
+  {
+    "inspectionId": "insp-06-TG-110",
+    "assetId": "TG-110",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-06T08:30:00+00:00",
+    "image": "images/insp-06-TG-110.jpg",
+    "robotReading": {
+      "value": 107.48,
+      "unit": "degC",
+      "confidence": 0.69
+    },
+    "audio": {
+      "rmsDb": 65.9
+    }
+  },
+  {
+    "inspectionId": "insp-06-TG-220",
+    "assetId": "TG-220",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-06T08:45:00+00:00",
+    "image": "images/insp-06-TG-220.jpg",
+    "robotReading": {
+      "value": 141.22,
+      "unit": "degC",
+      "confidence": 0.79
+    },
+    "audio": {
+      "rmsDb": 68.8
+    }
+  },
+  {
+    "inspectionId": "insp-06-PG-410",
+    "assetId": "PG-410",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-06T08:45:00+00:00",
+    "image": "images/insp-06-PG-410.jpg",
+    "robotReading": {
+      "value": null,
+      "unit": null,
+      "confidence": 0.0
+    },
+    "audio": {
+      "rmsDb": 67.7
+    }
+  },
+  {
+    "inspectionId": "insp-06-TG-415",
+    "assetId": "TG-415",
+    "robotId": "robot-demo-01",
+    "capturedAt": "2026-09-06T06:57:00+00:00",
+    "image": "images/insp-06-TG-415.jpg",
+    "robotReading": {
+      "value": 210.85,
+      "unit": "degF",
+      "confidence": 0.87
+    },
+    "audio": {
+      "rmsDb": 68.3
+    }
+  }
+]

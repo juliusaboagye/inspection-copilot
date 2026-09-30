@@ -1,0 +1,90 @@
+[
+  {
+    "id": "PG-101",
+    "name": "Feed pump P-101 discharge pressure",
+    "unit": "bar",
+    "scaleMin": 0,
+    "scaleMax": 16,
+    "normalMin": 6,
+    "normalMax": 10,
+    "site": "Demo Site",
+    "area": "Unit 1"
+  },
+  {
+    "id": "PG-102",
+    "name": "Feed pump P-102 discharge pressure",
+    "unit": "bar",
+    "scaleMin": 0,
+    "scaleMax": 16,
+    "normalMin": 6,
+    "normalMax": 10,
+    "site": "Demo Site",
+    "area": "Unit 1"
+  },
+  {
+    "id": "PG-201",
+    "name": "Cooling water header pressure",
+    "unit": "bar",
+    "scaleMin": 0,
+    "scaleMax": 10,
+    "normalMin": 3,
+    "normalMax": 6,
+    "site": "Demo Site",
+    "area": "Unit 2"
+  },
+  {
+    "id": "PG-305",
+    "name": "Instrument air receiver",
+    "unit": "psi",
+    "scaleMin": 0,
+    "scaleMax": 160,
+    "normalMin": 90,
+    "normalMax": 120,
+    "site": "Demo Site",
+    "area": "Unit 3"
+  },
+  {
+    "id": "TG-110",
+    "name": "Lube oil return temperature",
+    "unit": "degC",
+    "scaleMin": 0,
+    "scaleMax": 120,
+    "normalMin": 35,
+    "normalMax": 70,
+    "site": "Demo Site",
+    "area": "Unit 1"
+  },
+  {
+    "id": "TG-220",
+    "name": "Heat exchanger E-220 outlet",
+    "unit": "degC",
+    "scaleMin": 0,
+    "scaleMax": 150,
+    "normalMin": 60,
+    "normalMax": 95,
+    "site": "Demo Site",
+    "area": "Unit 2"
+  },
+  {
+    "id": "PG-410",
+    "name": "Firewater ring main",
+    "unit": "bar",
+    "scaleMin": 0,
+    "scaleMax": 25,
+    "normalMin": 8,
+    "normalMax": 14,
+    "site": "Demo Site",
+    "area": "Unit 4"
+  },
+  {
+    "id": "TG-415",
+    "name": "Compressor K-415 discharge",
+    "unit": "degF",
+    "scaleMin": 0,
+    "scaleMax": 300,
+    "normalMin": 150,
+    "normalMax": 230,
+    "site": "Demo Site",
+    "area": "Unit 4"
+  }
+]
